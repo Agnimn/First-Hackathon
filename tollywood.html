@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>90's Tollywood</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="tollywood.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>SPOTIFY</h1>
+        
+        <input type="search" name="songs" id="inp" placeholder="Search for a song">
+        <button>Search</button>
+        <a href="play.html"><--</a>
+    </div>
+
+    <div class="tolly-wood-img">
+        <img src="tollywood.jpeg" alt="Bollwood" style="height:230px; width: 230px; background-repeat: no-repeat; background-size:cover;">
+        <div class="love-hits">
+            <h1>Tollywood 90's Top  Hits</h1>
+        </div>
+    </div>
+    <br><br><br><br>
+    <hr>
+    
+    <div class="playlist">
+        <br>
+        <h2>90'S - Top Hits</h2>
+        <div class="song" data-src="Nelluri Nerajana.mp3">
+            <div>
+                <p class="title">Nelluri Nerajana </p>
+                <br>
+                <p class="artist">Hariharan and Mahalakshmi Iyer</p>
+            </div>
+            <p>5:54</p>
+        </div>
+        <div class="song" data-src="Naalo Unna Prema.mp3">
+            <div>
+                <p class="title">Naalo Unna Prema </p>
+                <br>
+                <p class="artist">S. P. Balasubrahmanyam </p>
+            </div>
+            <p>3:54</p>
+        </div>
+        <div class="song" data-src="Thelusa Manasa.mp3">
+            <div>
+                <p class="title">Thelusa Manasa </p>
+                <br>
+                <p class="artist">K. S. Chithra and S. P. Balasubrahmanyam</p>
+            </div>
+            <p>5:28</p>
+        </div>
+        <div class="song" data-src="Ninne Pelladatha .mp3">
+            <div>
+                <p class="title">Ninne Pelladatha  </p>
+                <br>
+                <p class="artist"> Sandeep Chawtha</p>
+            </div>
+            <p>4:18</p>
+        </div>
+    </div>
+    <br><br><br><br>
+</body>
+
+<div class="control-bar">
+    <div class="current-song">Select a song to play</div>
+    <audio id="audio-player" controls></audio>
+</div>
+<br>
+
+<script src="bollywood.js"></script>
+</html>
