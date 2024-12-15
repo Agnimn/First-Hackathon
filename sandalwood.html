@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>90's Sandalwood</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="sandwoold.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>SPOTIFY</h1>
+        
+        <input type="search" name="songs" id="inp" placeholder="Search for a song">
+        <button>Search</button>
+        <a href="play.html"><--</a>
+    </div>
+
+    <div class="sandal-wood-img">
+        <img src="sandalwood.jpg" alt="Sandalwood" style="height:230px; width: 230px; background-repeat: no-repeat; background-size:cover;">
+        <div class="love-hits">
+            <h1>Romantic: 90's Love Hits</h1>
+        </div>
+    </div>
+    <br><br><br><br>
+    <hr>
+    
+    <div class="playlist">
+        <br>
+        <h2>90'S - Love Hits</h2>
+        <div class="song" data-src="Nooru janmaku.mp3">
+            <div>
+                <p class="title">Nooru Janmaku</p>
+                <br>
+                <p class="artist">Rajesh krishnan</p>
+            </div>
+            <p>4:21</p>
+        </div>
+        <div class="song" data-src="Tunturu.mp3">
+            <div>
+                <p class="title">Tunturu</p>
+                <br>
+                <p class="artist">K.S Chitra</p>
+            </div>
+            <p>5:18</p>
+        </div>
+        <div class="song" data-src="Oh gulabi.mp3">
+            <div>
+                <p class="title">Oh gulabi</p>
+                <br>
+                <p class="artist">Ajay Warier</p>
+            </div>
+            <p>4:34</p>
+        </div>
+        <div class="song" data-src="Jotheyali.mp3">
+            <div>
+                <p class="title">Jotheyali</p>
+                <br>
+                <p class="artist">Bala Subramanyam</p>
+            </div>
+            <p>3:53</p>
+        </div>
+    </div>
+    <br><br><br><br>
+</body>
+
+<div class="control-bar">
+    <div class="current-song">Select a song to play</div>
+    <audio id="audio-player" controls></audio>
+</div>
+<br>
+
+<script src="sandalwood.js"></script>
+</html>
