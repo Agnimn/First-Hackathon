@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>90's Bollywood</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="bollywood.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>SPOTIFY</h1>
+        
+        <input type="search" name="songs" id="inp" placeholder="Search for a song">
+        <button>Search</button>
+        <a href="play.html"><--</a>
+    </div>
+
+    <div class="sandal-wood-img">
+        <img src="Bollywood.avif" alt="Bollwood" style="height:230px; width: 230px; background-repeat: no-repeat; background-size:cover;">
+        <div class="love-hits">
+            <h1>Romantic: 90's Love Hits</h1>
+        </div>
+    </div>
+    <br><br><br><br>
+    <hr>
+    
+    <div class="playlist">
+        <br>
+        <h2>90'S - Romantic Hits</h2>
+        <div class="song" data-src="Dheere dheere.mp3">
+            <div>
+                <p class="title">Dheere dheere</p>
+                <br>
+                <p class="artist">Kumar sanu</p>
+            </div>
+            <p>5:07</p>
+        </div>
+        <div class="song" data-src="Tujhe Dekha Toh .mp3">
+            <div>
+                <p class="title">Tujhe Dekha Toh </p>
+                <br>
+                <p class="artist">Lata Mangeshkar,Kumar sanu</p>
+            </div>
+            <p>5:03</p>
+        </div>
+        <div class="song" data-src="Ek Ladki Ko Dekha Toh Aisa Laga .mp3">
+            <div>
+                <p class="title">Ek Ladki Ko Dekha Toh Aisa Laga </p>
+                <br>
+                <p class="artist"> Anil Kapoor</p>
+            </div>
+            <p>3:54</p>
+        </div>
+        <div class="song" data-src="Pehla Nasha Pehla .mp3">
+            <div>
+                <p class="title">Pehla Nasha Pehla </p>
+                <br>
+                <p class="artist">Udit Narayan</p>
+            </div>
+            <p>3:41</p>
+        </div>
+    </div>
+    <br><br><br><br>
+</body>
+
+<div class="control-bar">
+    <div class="current-song">Select a song to play</div>
+    <audio id="audio-player" controls></audio>
+</div>
+<br>
+
+<script src="bollywood.js"></script>
+</html>
